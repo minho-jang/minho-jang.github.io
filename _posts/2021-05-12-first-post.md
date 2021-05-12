@@ -6,6 +6,7 @@ categories:
   - Life
 tags:
   - Life
+last_modified_at: 2021-05-11
 ---
 
 GitHub Pages 서비스인 github.io 블로그를 만들었다.
