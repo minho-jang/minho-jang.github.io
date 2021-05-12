@@ -1,0 +1,18 @@
+---
+title: "Hello, GitHub Pages"
+excerpt: "GitHub Pages 서비스인 github.io 블로그 시작한다."
+
+categories:
+  - Life
+tags:
+  - Life
+---
+
+GitHub Pages 서비스인 github.io 블로그를 만들었다.
+
+이 [블로그](https://devinlife.com/howto/)를 참조하며 만들고 있으며, 이렇게 첫 포스팅을 남긴다.
+개발, 일상 등에 대한 이야기들을 남겨보려고 한다.
+
+YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
+이 글의 제목은 "{{ page.title }}"이고
+마지막으로 수정된 날짜는 "{{ page.last_modified_at }}"이다.
