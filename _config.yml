@@ -24,7 +24,7 @@ description: "안녕하세요, 항상 공부하는 개발자의 블로그입니�
 url: "https://minho-jang.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: "/assets/images/junior.jpg"
+teaser: # "/assets/images/junior.jpg"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -271,6 +271,7 @@ defaults:
       share: # true
       related: true
       classes: wide
+      show_date: true
   # _pages
   - scope:
       path: ""
