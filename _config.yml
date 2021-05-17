@@ -270,7 +270,6 @@ defaults:
       comments: true
       share: # true
       related: true
-      classes: wide
       show_date: true
   # _pages
   - scope:
