@@ -25,7 +25,7 @@ description: "안녕하세요, 항상 공부하는 개발자의 블로그입니�
 url: "https://minho-jang.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: # "/assets/images/junior.jpg"
+teaser: "/assets/images/me-image.jpeg"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -77,7 +77,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: "/assets/images/junior.jpg"
+og_image: "/assets/images/me-image.jpeg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name: "minho-jang"
-  avatar: "/assets/images/junior.jpg"
+  avatar: "/assets/images/me-image.jpeg"
   bio: "안녕하세요, 항상 공부하는 개발자의 블로그입니다."
   location: "South Korea"
   email: "minho9301@naver.com"
