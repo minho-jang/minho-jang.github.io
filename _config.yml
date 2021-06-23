@@ -24,16 +24,16 @@ name: "minho-jang"
 description: "안녕하세요, 항상 공부하는 개발자의 블로그입니다."
 url: "https://minho-jang.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "minho-jang/minho-jang.github.io" # e.g. "mmistakes/minimal-mistakes"
 teaser: "/assets/images/me-image.jpeg"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
-  provider: "disqus" # false (default), "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "utterances" # false (default), "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname: "minho-jang-github-io"
+    shortname: # "minho-jang-github-io"
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -42,8 +42,10 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: # "github-light" (default), "github-dark"
-    issue_term: # "pathname" (default)
+    theme: "github-light" # "github-light" (default), "github-dark"
+    issue_term: "title" # "pathname" (default)
+    label: "comment"
+    crossorigin: "anonymous"
   staticman:
     branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
