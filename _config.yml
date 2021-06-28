@@ -28,7 +28,7 @@ repository: "minho-jang/minho-jang.github.io" # e.g. "mmistakes/minimal-mistakes
 teaser: "/assets/images/me-image.jpeg"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: "utterances" # false (default), "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -269,15 +269,14 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: single-wide
       read_time: # true
       comments: true
       share: # true
       related: true
       show_date: true
-      # toc: true
-      # toc_sticky: true
+      toc: true
+      toc_sticky: true
   # _pages
   - scope:
       path: ""

@@ -37,6 +37,22 @@
     }
   }
 
+  .wide-ol {
+    padding: 0;
+    list-style: none;
+    font-size: $type-size-6;
+
+    @include breakpoint($large) {
+      float: left;
+      width: calc(100% - #{$right-sidebar-width-narrow});
+    }
+
+    @include breakpoint($x-large) {
+      float: left;
+      width: calc(100% - #{$right-sidebar-width});
+    }
+  }
+
   li {
     display: inline;
   }
@@ -200,8 +216,8 @@
       margin-left: 0;
     }
   }
-  
-  img{
+
+  img {
     -webkit-transition: none;
     transition: none;
   }
@@ -568,6 +584,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }
