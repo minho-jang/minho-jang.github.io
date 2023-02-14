@@ -324,7 +324,7 @@ body {
    ========================================================================== */
 
 .page__meta {
-  margin-top: 2em;
+  margin-top: 4em;
   color: $muted-text-color;
   font-family: $sans-serif;
   font-size: $type-size-6;
@@ -368,10 +368,11 @@ body {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 2px 7px;
   text-decoration: none;
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
+  font-size: 0.5em;
 
   &:hover {
     text-decoration: none;
