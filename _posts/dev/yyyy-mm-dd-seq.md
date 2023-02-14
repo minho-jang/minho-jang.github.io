@@ -6,6 +6,8 @@ categories:
   - category
 tags:
   - tag
+refs:
+  - https://google.com
 header:
   teaser: /assets/images/[image-path]
 ---
@@ -18,9 +20,11 @@ This is template of post
 
 content
 
-<!-- <figure style="justify-content:center;flex:1;margin-top:1em;margin-bottom:1em;">
+<!-- 
+<figure style="justify-content:center;flex:1;margin-top:1em;margin-bottom:1em;">
   <img src="/assets/images/[image-path]" alt="[...]" style="margin-bottom:.25em;border-radius:0;">
-</figure> -->
+</figure> 
+-->
 
 ## OFF THE RECORD
 
