@@ -1,5 +1,5 @@
 <p class="page__taxonomy">
-  <strong><i class="fas fa-fw fa-external-link-alt" aria-hidden="true"></i> References: </strong>
+  <strong><i class="fas fa-fw fa-external-link-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].references_label | default: "References:" }} </strong>
   <ul style="margin-block-start: 0.5em">
     {% for ref in page.refs %}
       <li style="margin-bottom: 0.25em">

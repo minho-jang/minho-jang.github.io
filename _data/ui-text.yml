@@ -20,6 +20,7 @@ en: &DEFAULT_EN
   minute_read                : "minute read"
   share_on_label             : "Share on"
   meta_label                 :
+  references_label           : "References:"
   tags_label                 : "Tags:"
   categories_label           : "Categories:"
   date_label                 : "Updated:"
@@ -79,6 +80,7 @@ es: &DEFAULT_ES
   minute_read                : "minuto(s) de lectura"
   share_on_label             : "Compartir en"
   meta_label                 :
+  references_label           : "Referencias:"
   tags_label                 : "Etiquetas:"
   categories_label           : "Categorías:"
   date_label                 : "Actualizado:"
@@ -134,6 +136,7 @@ fr: &DEFAULT_FR
   minute_read                : "minute(s) de lecture"
   share_on_label             : "Partager sur"
   meta_label                 :
+  references_label           : "Références :"
   tags_label                 : "Tags :"
   categories_label           : "Catégories :"
   date_label                 : "Mis à jour :"
@@ -191,6 +194,7 @@ tr: &DEFAULT_TR
   minute_read                : "dakika tahmini okuma süresi"
   share_on_label             : "Paylaş"
   meta_label                 :
+  references_label           : "Referanslar:"
   tags_label                 : "Etiketler:"
   categories_label           : "Kategoriler:"
   date_label                 : "Güncelleme tarihi:"
@@ -241,6 +245,7 @@ pt: &DEFAULT_PT
   minute_read                : "minutos de leitura"
   share_on_label             : "Partilhar no"
   meta_label                 :
+  references_label           : "Referências:"
   tags_label                 : "Etiquetas:"
   categories_label           : "Categorias:"
   date_label                 : "Atualizado:"
@@ -289,6 +294,7 @@ pt-BR:
   minute_read                : "minuto(s) de leitura"
   share_on_label             : "Compartilhe"
   meta_label                 :
+  references_label           : "Referências:"
   tags_label                 : "Tags:"
   categories_label           : "Categorias:"
   date_label                 : "Atualizado em:"
@@ -340,6 +346,7 @@ it: &DEFAULT_IT
   minute_read                : "minuto/i di lettura"
   share_on_label             : "Condividi"
   meta_label                 :
+  references_label           : "Riferimenti:"
   tags_label                 : "Tags:"
   categories_label           : "Categorie:"
   date_label                 : "Aggiornato:"
@@ -393,6 +400,7 @@ zh: &DEFAULT_ZH_HANS
   minute_read                : "分钟阅读"
   share_on_label             : "分享"
   meta_label                 :
+  references_label           : "参考:"
   tags_label                 : "标签:"
   categories_label           : "分类:"
   date_label                 : "更新时间:"
@@ -446,6 +454,7 @@ zh-TW: &DEFAULT_ZH_HANT
   minute_read                : "分鐘閱讀"
   share_on_label             : "分享到"
   meta_label                 :
+  references_label           : "參考:"
   tags_label                 : "標籤:"
   categories_label           : "分類:"
   date_label                 : "更新時間:"
@@ -499,6 +508,7 @@ de: &DEFAULT_DE
   minute_read                : "Minuten zum lesen"
   share_on_label             : "Teilen auf"
   meta_label                 :
+  references_label           : "Verweise:"
   tags_label                 : "Tags:"
   categories_label           : "Kategorien:"
   date_label                 : "Aktualisiert:"
@@ -561,6 +571,7 @@ ne: &DEFAULT_NE
   minute_read                : "मिनेट पढ्नुहोस्"
   share_on_label             : "शेयर गर्नुहोस्"
   meta_label                 :
+  references_label           : "सन्दर्भहरू:"
   tags_label                 : "ट्यागहरू:"
   categories_label           : "वर्गहरु:"
   date_label                 : "अद्यावधिक:"
@@ -611,6 +622,7 @@ ko: &DEFAULT_KO
   minute_read                : "분 소요"
   share_on_label             : "공유하기"
   meta_label                 :
+  references_label           : "참조:"
   tags_label                 : "태그:"
   categories_label           : "카테고리:"
   date_label                 : "업데이트:"
@@ -664,6 +676,7 @@ ru: &DEFAULT_RU
   minute_read                : "мин на чтение"
   share_on_label             : "Поделиться"
   meta_label                 :
+  references_label           : "Рекомендации:"
   tags_label                 : "Метки:"
   categories_label           : "Разделы:"
   date_label                 : "Дата изменения:"
@@ -716,6 +729,7 @@ lt: &DEFAULT_LT
   minute_read                : "min. skaitymo"
   share_on_label             : "Pasidalinti"
   meta_label                 :
+  references_label           : "Nuorodos:"
   tags_label                 : "Žymės:"
   categories_label           : "Kategorijos:"
   date_label                 : "Atnaujinta:"
@@ -766,6 +780,7 @@ gr: &DEFAULT_GR
   minute_read                : "λεπτά ανάγνωσης"
   share_on_label             : "Μοιραστείτε το"
   meta_label                 :
+  references_label           : "αναφορές:"
   tags_label                 : "Ετικέτες:"
   categories_label           : "Κατηγορίες:"
   date_label                 : "Ενημερώθηκε:"
@@ -818,6 +833,7 @@ sv: &DEFAULT_SV
   minute_read                : "minut läsning"
   share_on_label             : "Dela på"
   meta_label                 :
+  references_label           : "Referenser:"
   tags_label                 : "Taggar:"
   categories_label           : "Kategorier:"
   date_label                 : "Uppdaterades:"
@@ -873,6 +889,7 @@ nl: &DEFAULT_NL
   minute_read                : "minuut gelezen"
   share_on_label             : "Deel op"
   meta_label                 :
+  references_label           : "Referenties:"
   tags_label                 : "Labels:"
   categories_label           : "Categorieën:"
   date_label                 : "Bijgewerkt:"
@@ -928,6 +945,7 @@ id: &DEFAULT_ID
   minute_read                : "menit baca"
   share_on_label             : "Bagikan di"
   meta_label                 :
+  references_label           : "Referensi:"
   tags_label                 : "Label:"
   categories_label           : "Kategori:"
   date_label                 : "Diupdate:"
@@ -981,6 +999,7 @@ vi: &DEFAULT_VI
   minute_read                : "phút để đọc"
   share_on_label             : "Chia sẻ tại"
   meta_label                 :
+  references_label           : "liên kết:"
   tags_label                 : "Thẻ:"
   categories_label           : "Danh mục:"
   date_label                 : "Ngày cập nhật:"
@@ -1034,6 +1053,7 @@ da: &DEFAULT_DA
   minute_read                : "minutters læsning"
   share_on_label             : "Del på"
   meta_label                 :
+  references_label           : "Referencer:"
   tags_label                 : "Nøgleord:"
   categories_label           : "Kategorier:"
   date_label                 : "Opdateret:"
@@ -1087,6 +1107,7 @@ pl: &DEFAULT_PL
   minute_read                : "minut(y)"
   share_on_label             : "Udostępnij"
   meta_label                 :
+  references_label           : "Odniesienie:"
   tags_label                 : "Tagi:"
   categories_label           : "Kategorie:"
   date_label                 : "Ostatnia aktualizacja:"
@@ -1137,6 +1158,7 @@ ja: &DEFAULT_JA
   minute_read                :
   share_on_label             : "共有"
   meta_label                 :
+  references_label           : "参考文献:"
   tags_label                 : "タグ:"
   categories_label           : "カテゴリー:"
   date_label                 : "更新日時:"
@@ -1189,6 +1211,7 @@ sk: &DEFAULT_SK
   minute_read                : "minút"
   share_on_label             : "Zdieľaj na"
   meta_label                 :
+  references_label           : "Referencie:"
   tags_label                 : "Tagy:"
   categories_label           : "Kategórie:"
   date_label                 : "Aktualizované:"
@@ -1242,6 +1265,7 @@ hu: &DEFAULT_HU
   minute_read                : "eltöltött percek"
   share_on_label             : "Megosztás"
   meta_label                 :
+  references_label           : "Hivatkozások:"
   tags_label                 : "Tagek:"
   categories_label           : "Kategóriák:"
   date_label                 : "Frissítve:"
@@ -1295,6 +1319,7 @@ ro: &DEFAULT_RO
   minute_read                : "minute de citit"
   share_on_label             : "Distribuie pe"
   meta_label                 :
+  references_label           : "Referințe:"
   tags_label                 : "Etichete:"
   categories_label           : "Categorii:"
   date_label                 : "Actualizat:"
@@ -1348,6 +1373,7 @@ pa: &DEFAULT_PA
   minute_read                : "ਮਿੰਟ ਵਿੱਚ ਪੜਿਆ ਜਾ ਸਕਦਾ ਹੈ"
   share_on_label             : "ਸਾਂਝਾ ਕਰੋ"
   meta_label                 : "ਸਵੈ-ਸੰਦਰਭ ਜਾਣਕਾਰੀ"
+  references_label           : "ਹਵਾਲੇ"
   tags_label                 : "ਟੈਗ"
   categories_label           : "ਵਰਗ"
   date_label                 : "ਅਪਡੇਟ ਕੀਤਾ:"
@@ -1400,6 +1426,7 @@ fa: &DEFAULT_FA
   minute_read                : "(طول مطالعه (دقیقه"
   share_on_label             : "اشتراک گذاری در"
   meta_label                 :
+  references_label           : "منابع: "
   tags_label                 : "تگ ها: "
   categories_label           : "دسته بندی ها: "
   date_label                 : "به روز شده در: "
@@ -1454,6 +1481,7 @@ ml: &DEFAULT_ML
   minute_read                : "മിനിറ്റ് ദൈർഖ്യം"
   share_on_label             : "ഷെയർ  ചെയ്യുവാൻ "
   meta_label                 :
+  references_label           : "റഫറൻസുകൾ:"
   tags_label                 : "ടാഗുകൾ:"
   categories_label           : "വിഭാഗങ്ങൾ:"
   date_label                 : "അവസാന മാറ്റം:"
@@ -1507,6 +1535,7 @@ th: &DEFAULT_TH
   minute_read                : "นาที ในการอ่าน"
   share_on_label             : "แชร์ไปที่"
   meta_label                 :
+  references_label           : "อ้างอิง:"
   tags_label                 : "แท็ก:"
   categories_label           : "หมวดหมู่:"
   date_label                 : "อัพเดตล่าสุด:"
@@ -1559,6 +1588,7 @@ hi: &DEFAULT_HI
   minute_read                : "मिनट में पढ़ सकते हैं"
   share_on_label             : "साझा करें"
   meta_label                 : "स्व-संदर्भात्मक जानकारी"
+  references_label           : "संदर्भ:"
   tags_label                 : "अंकितक:"
   categories_label           : "श्रेणियाँ:"
   date_label                 : "अपडेट किया गया:"
@@ -1612,6 +1642,7 @@ ca: &DEFAULT_CA
   minute_read                : "minut(s)"
   share_on_label             : "Comparteix a"
   meta_label                 :
+  references_label           : "Referències:"
   tags_label                 : "Etiquetes:"
   categories_label           : "Categories:"
   date_label                 : "Actualitzat:"
@@ -1665,6 +1696,7 @@ ga: &DEFAULT_GA
   minute_read                : "a léamh"
   share_on_label             : "Roinn ar"
   meta_label                 :
+  references_label           : "Tagairtí:"
   tags_label                 : "Clibeanna:"
   categories_label           : "Catagoírí:"
   date_label                 : "Nuashonraíodh:"
@@ -1713,6 +1745,7 @@ fi: &DEFAULT_FI
   minute_read                : "lukuaika"
   share_on_label             : "Jaa"
   meta_label                 :
+  references_label           : "Viitteet:"
   tags_label                 : "Tagit:"
   categories_label           : "Kategoriat:"
   date_label                 : "Päivitetty:"
@@ -1764,6 +1797,7 @@ my: &DEFAULT_MY
   minute_read                : "မိနစ်"
   share_on_label             : "မျှဝေပါ။"
   meta_label                 :
+  references_label           : "ကိုးကား -"
   tags_label                 : "အမှတ်အသားများ -"
   categories_label           : "အမျိုးအစားများ -"
   date_label                 : "ပြင်ဆင်ပြီး -"
@@ -1817,6 +1851,7 @@ no: &DEFAULT_NO
   minute_read                : "minutters lesing"
   share_on_label             : "Del på"
   meta_label                 :
+  references_label           : "Referanser:"
   tags_label                 : "Nøkkelord:"
   categories_label           : "Kategorier:"
   date_label                 : "Oppdatert:"
@@ -1872,6 +1907,7 @@ he: &DEFAULT_HE
   minute_read                : "דקת קריאה"
   share_on_label             : "שתפו ב"
   meta_label                 :
+  references_label           : "הפניות:"
   tags_label                 : "תגיות:"
   categories_label           : "קטגוריות:"
   date_label                 : "מעודכן:"
@@ -1925,6 +1961,7 @@ ar: &DEFAULT_AR
   minute_read                : "دقيقة قرائية"
   share_on_label             : "مشاركة"
   meta_label                 :
+  references_label           : "مراجع:"
   tags_label                 : "العلامات الوصفية:"
   categories_label           : "الفئات:"
   date_label                 : "تم التحديث:"
