@@ -12,9 +12,10 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
+{% assign posts_sorted = posts | sort: "last_modified_at" | reverse %}
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
+  {% for post in posts_sorted %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
