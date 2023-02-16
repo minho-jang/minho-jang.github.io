@@ -51,9 +51,6 @@ layout: default
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
-        {% if page.refs[0] %}
-          {% include ref-list.html %}
-        {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
       </footer>

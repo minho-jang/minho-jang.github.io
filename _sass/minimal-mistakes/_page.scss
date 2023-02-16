@@ -331,7 +331,7 @@ body {
   font-size: $type-size-6;
 
   p {
-    margin: 0;
+    margin: 0 0 0.5em;
   }
 
   a {
@@ -361,24 +361,37 @@ body {
   }
 
   strong {
-    margin-right: 10px;
+    margin-right: 0.5em;
+  }
+
+  ul {
+    margin-block-start: 0.5em;
+    padding-inline-start: 2em;
+
+    li {
+      margin-bottom: 0.25em;
+    }
   }
 }
 
 .page__taxonomy-item {
   display: inline-block;
   margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 2px 7px;
+  margin-bottom: 2px;
+  padding: 0 7px;
   text-decoration: none;
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
-  font-size: 0.5em;
+  font-size: 0.75em;
 
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
   }
+}
+
+.page__taxonomy-reference {
+  word-wrap: break-word;
 }
 
 .taxonomy__section {
