@@ -1,0 +1,15 @@
+.custom__responsive-img-wrapper {
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom__responsive-img-wrapper {
+    text-align: center;
+
+    img {
+      width: 60%;
+    }
+  }
+}
