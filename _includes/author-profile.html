@@ -22,6 +22,7 @@
     <img
       src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fminho-jang.github.io&count_bg=%232F7D95&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=today&edge_flat=false"
       id="author__hits"
+      alt=""
     />
   </div>
 
@@ -54,7 +55,7 @@
         <li>
           <a href="mailto:{{ author.email }}" rel="me" class="u-email">
             <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
           </a>
         </li>
       {% endif %}
